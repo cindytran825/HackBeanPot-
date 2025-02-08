@@ -7,9 +7,7 @@ import Home from './CineEats/Home';
 import Recipe from './CineEats/Recipe';
 
 
-
 export default function App() {
-
 
   return (
     <HashRouter>

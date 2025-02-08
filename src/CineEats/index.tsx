@@ -1,8 +1,11 @@
 import Recipe from "./Recipe";
 import { Route, Routes, Navigate } from "react-router";
+import { CiSearch } from "react-icons/ci";
 import TOC from "./TOC";
 import Home from "./Home";
+import About from "./About";
 import "./index.css";
+import {  Form, InputGroup } from "react-bootstrap";
 
 export default function CineEats() {
   return (
@@ -10,14 +13,30 @@ export default function CineEats() {
       <header className="header">
         <h1 className="cineeats-logo">CineEats</h1>
         <TOC />
+        <div className="search">
+        <InputGroup className="search-bar">
+            <InputGroup.Text className="search-icon">
+              <CiSearch />
+            </InputGroup.Text>
+            <Form.Control
+              id="wd-name"
+              placeholder="Search"
+              type="text"
+              className="search-input"
+            />
+          </InputGroup>
+           </div>
       </header>
-      <div>
+     
+
         <Routes>
           <Route path="/" element={<Navigate to="Home" />} />
           <Route path="Home" element={<Home />} />
           <Route path="Recipe" element={<Recipe />} />
+          <Route path="About" element={<About />} />
         </Routes>
-      </div>
+     
+      
     </div>
   );
 }
