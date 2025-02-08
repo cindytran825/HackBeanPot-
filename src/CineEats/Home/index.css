@@ -1,6 +1,5 @@
-.wd_screen_size {
-    width: 1280;
-     height: 365;
-      position: 'relative';
+.home-page {
+      top: 300px;
     background: '#F5E8D7'; 
 }
+

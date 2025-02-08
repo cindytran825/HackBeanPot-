@@ -1,7 +1,52 @@
+/* Header container */
+.header {
+     display: flex;
+     align-items: center;
+     justify-content: space-between; /* Space between logo and links */
+     padding: 40px 20px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+ }
+ 
+ /* CineEats logo (top left) */
+ .cineeats-logo {
+     font-size: 2rem;
+     font-weight: 400;
+     color: black;
+     margin: 0;
+     text-align: left;
+ }
+ 
+ 
+ .nav-container {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     display: flex;
+     justify-content: center;
+ }
+ 
 
-cineeats-logo {
-     font-size: 3.2em;
-     position: relative;
-     top: 20px;
-     left: 20px;
-   }
+ .nav-links {
+     display: flex;
+     justify-content: center;
+     gap: 2rem;
+     list-style: none;
+     font-size: 1.2rem;
+ }
+ 
+
+ .nav-links .nav-link {
+     text-decoration: none;
+     color: black;
+     font-weight: 400;
+     transition: color 0.3s ease;
+ }
+ 
+ /* Hover effect */
+ .nav-links .nav-link:hover {
+     color: #fccce6; /* Highlight effect */
+ }

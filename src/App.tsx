@@ -19,7 +19,6 @@ export default function App() {
           <Route path="/" element={<Navigate to="CineEats" />} />
           
           <Route path="/CineEats/*" element={<CineEats />} />
-          {/* <Route path="/Home/*" element={<Home />} /> */}
         </Routes>
 
       </div>
