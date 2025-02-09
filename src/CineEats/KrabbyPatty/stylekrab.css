@@ -1,0 +1,141 @@
+/* html, body {
+     height: 100%;  
+     margin: 0;  
+     padding: 0;   
+   } */
+.krabby-page {
+     background: linear-gradient(180deg, #3AB4C4 0%, #4B88C0 100%);
+     min-height: 200vh;
+     width: 100vw;
+     display: flex;
+     justify-content: center;
+     overflow-x: hidden;
+     /* justify-content: flex-start; */
+}
+
+
+ .title-font {
+     color: #EDC50D;
+     -webkit-text-stroke: 1.6px #9D6224;
+     font-size: 25px;
+     font-family: 'Spongeboy';
+     font-weight: 500;
+     left: 100px;
+     position: absolute;
+     top: 150px;
+ }
+ 
+ .krabby-image {
+     border-radius: 20px;
+     max-width: 100%; 
+     height: auto;
+     margin-left: 5px; 
+     margin-top: 20px;
+ }
+ 
+
+ .title-name {
+     color: #000;
+     font-size: 36px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 45px;
+     margin-left: 150px; 
+     margin-top: 20px;
+ }
+
+ .first-paragraph {
+     align-items: left;
+     justify-content: left;
+     position: absolute;
+     right: 162px;
+     top: 200px;
+ }
+
+ .individual p {
+     color: black;
+     font-size: 12px;
+     font-weight: 400;
+     word-wrap: break-word;
+     position: absolute;
+     top: 85px;
+     left: 155px;
+ }
+
+ .total-time-label {
+     color: black;
+     font-size: 16px;
+     font-weight: 400;
+   }
+   
+   .total-time-duration {
+     color: black;
+     font-size: 16px;
+     font-weight: 500;
+   }
+   .flex-times{
+     display: flex;
+     position:absolute;
+     top: 75px;
+     right: 52px;
+   }
+.change-paragraph{
+     position: absolute;
+     width:40%;
+     top: 375px;
+     left: 668px;
+     color:'black';
+}
+.directions{
+     position: relative;
+     top: 580px;
+     left: 668px;
+}
+
+.change-paragraph2{
+     position: relative;
+     width:40%;
+     top: 590px;
+     left: 668px;
+}
+
+.menu{
+     position: relative;
+     width:40%;
+     bottom: 150px;
+     left: 90px;
+}
+.text-space {
+     line-height: 35px;
+   }
+   .text-space2 {
+     line-height: 60px;
+   }
+
+   .bottom-font {
+     color: #EDC50D;
+     -webkit-text-stroke: 1.6px #9D6224;
+     font-size: 25px;
+     font-family: 'Spongeboy';
+     font-weight: 500;
+     left: 678px;
+     position: absolute;
+     /* top: 150px; */
+ }
+
+ .blue-flower{
+     position: absolute;
+     left: 1170px;
+     top: 1000px;
+ }
+ .mini-flower{
+     position: absolute;
+     left: 1170px;
+     top: 90px;
+ }
+ .grey-flower{
+     position: absolute;
+     left: 400px;
+     top: 1400px;
+ }
+

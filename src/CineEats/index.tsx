@@ -6,6 +6,8 @@ import Home from "./Home";
 import About from "./About";
 import "./index.css";
 import {  Form, InputGroup } from "react-bootstrap";
+import KrabbyPatty from "./KrabbyPatty";
+import Coraline from "./Coraline";
 
 export default function CineEats() {
   return (
@@ -34,6 +36,8 @@ export default function CineEats() {
           <Route path="Home" element={<Home />} />
           <Route path="Recipe" element={<Recipe />} />
           <Route path="About" element={<About />} />
+          <Route path="KrabbyPatty" element={<KrabbyPatty />} />
+          <Route path="Coraline" element={<Coraline />} />
         </Routes>
      
       
