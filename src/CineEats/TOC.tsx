@@ -7,15 +7,14 @@ export default function TOC() {
         <Nav.Item>
           <Nav.Link href="#/CineEats/Home">Home</Nav.Link>
         </Nav.Item>
-        {/* <Nav.Item>
-          <Nav.Link href="#/CineEats">CineEats</Nav.Link>
-        </Nav.Item> */}
+        <Nav.Item>
+          <Nav.Link href="#/CineEats/Recipe">Recipes</Nav.Link>
+        </Nav.Item>
         <Nav.Item>
           <Nav.Link href="#/CineEats/About">About</Nav.Link>
         </Nav.Item>
-        <Nav.Item>
-          <Nav.Link href="#/CineEats/Recipe">Recipe</Nav.Link>
-        </Nav.Item>
+        
+       
       </Nav>
     </div>
   );

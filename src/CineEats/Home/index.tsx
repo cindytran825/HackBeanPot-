@@ -1,6 +1,6 @@
-import { Card } from "react-bootstrap";
+import { Card, Nav } from "react-bootstrap";
 import "./stylehome.css";
-// import "./index.css"
+
 
 export default function Home() {
      return (
@@ -27,13 +27,71 @@ export default function Home() {
                          <div style={{ right: 30, bottom: 485, position: 'absolute', textAlign: 'right', color: 'white', fontSize: 28, fontFamily: 'BIZ UDPMincho', fontWeight: '700', wordWrap: 'break-word', lineHeight: 1, textShadow: "0px 2px 3px #333333" }}>Studio Ghibli’s </div>
                     </div>
                     <div className="popular-title">Popular Dishes</div>
-
-                    <div className="card-alignment">
-                         <div style={{ width: 415, height: 482, left: 50, top: 1, position: 'absolute', background: '#D9D9D9', borderRadius: 10, filter: 'blur(5px)' }} />
-                         <div style={{ width: 415, height: 478, left: 50, top: 0, position: 'absolute', background: '#F6F1EB', borderRadius: 10 }} />
-                         <div style={{ width: 340, height: 106, left: 85, top: 400, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 25, fontWeight: '600', wordWrap: 'break-word' }}>Spongebob’s Krabby Patty</div>
-                         <img style={{ width: 415, height: 360, left: 50, top: 0.42, position: 'absolute', borderTopLeftRadius: 10, borderTopRightRadius: 10 }} src="./images/spongebob.png" />
-                    </div>
+                    
+                    <Nav.Item>
+<div className="card-alignment">
+    {/* Wrap the entire div in a Link */}
+    <Nav.Link href="#/CineEats/KrabbyPatty">
+        {/* Blurred Background */}
+        <div 
+            style={{ 
+                width: 415, 
+                height: 482, 
+                left: 50, 
+                top: 1, 
+                position: 'absolute', 
+                background: '#D9D9D9', 
+                borderRadius: 10, 
+                filter: 'blur(5px)' 
+            }} 
+        />
+        {/* Main Card Background */}
+        <div 
+            style={{ 
+                width: 415, 
+                height: 478, 
+                left: 50, 
+                top: 0, 
+                position: 'absolute', 
+                background: '#F6F1EB', 
+                borderRadius: 10 
+            }} 
+        />
+        {/* Title */}
+        <div 
+            style={{ 
+                width: 340, 
+                height: 106, 
+                left: 85, 
+                top: 400, 
+                position: 'absolute', 
+                textAlign: 'center', 
+                color: 'black', 
+                fontSize: 25, 
+                fontWeight: '600', 
+                wordWrap: 'break-word' 
+            }}
+        >
+            Spongebob’s Krabby Patty
+        </div>
+        {/* Image */}
+        <img 
+            style={{ 
+                width: 415, 
+                height: 360, 
+                left: 50, 
+                top: 0.42, 
+                position: 'absolute', 
+                borderTopLeftRadius: 10, 
+                borderTopRightRadius: 10 
+            }} 
+            src="./images/spongebob.png" 
+            alt="Krabby Patty" 
+        />
+    </Nav.Link>
+    
+</div>
+</Nav.Item>
 
                     <div className="card-alignment">
                          <div style={{ width: 415, height: 482, left: 530, top: 1, position: 'absolute', background: '#D9D9D9', borderRadius: 10, filter: 'blur(5px)' }} />
@@ -62,12 +120,16 @@ export default function Home() {
                          <div style={{ width: 400, height: 25, left: 355, top: 260, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 20, fontWeight: '600', wordWrap: 'break-word' }}>Fortnite's Durr Burger</div>
                          <img style={{ width: 290, height: 240, left: 410, top: 0.42, position: 'absolute', borderTopLeftRadius: 10, borderTopRightRadius: 10 }} src="./images/Durr.png" />
                     </div>
+                    <Nav.Item>
                     <div className="card-alignment-second">
+                    <Nav.Link href="#/CineEats/Coraline"> 
                          <div style={{ width: 290, height: 308, left: 770, top: 1, position: 'absolute', background: '#D9D9D9', borderRadius: 10, filter: 'blur(5px)' }} />
                          <div style={{ width: 290, height: 306, left: 770, top: 0, position: 'absolute', background: '#F6F1EB', borderRadius: 10 }} />
                          <div style={{ width: 400, height: 25, left: 715, top: 260, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 20, fontWeight: '600', wordWrap: 'break-word' }}>Coraline's Cake</div>
                          <img style={{ width: 290, height: 240, left: 770, top: 0.42, position: 'absolute', borderTopLeftRadius: 10, borderTopRightRadius: 10 }} src="./images/Coraline.png" />
+                         </Nav.Link>
                     </div>
+                    </Nav.Item>
                     <div className="card-alignment-second">
                          <div style={{ width: 290, height: 308, right: 50, top: 1, position: 'absolute', background: '#D9D9D9', borderRadius: 10, filter: 'blur(5px)' }} />
                          <div style={{ width: 290, height: 306, right: 50, top: 0, position: 'absolute', background: '#F6F1EB', borderRadius: 10 }} />
@@ -85,7 +147,7 @@ export default function Home() {
                          <div style={{ width: 290, height: 308, left: 410, top: 1, position: 'absolute', background: '#D9D9D9', borderRadius: 10, filter: 'blur(5px)' }} />
                          <div style={{ width: 290, height: 306, left: 410, top: 0, position: 'absolute', background: '#F6F1EB', borderRadius: 10 }} />
                          <div style={{ width: 400, height: 25, left: 355, top: 260, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 20, fontWeight: '600', wordWrap: 'break-word' }}>My Little Pony's Pancakes</div>
-                         <img style={{ width: 290, height: 240, left: 410, top: 0.42, position: 'absolute', borderTopLeftRadius: 10, borderTopRightRadius: 10 }} src="./images/Pancakes.png" />
+                         <img style={{ width: 290, height: 240, left: 410, top: 0.42, position: 'absolute', borderTopLeftRadius: 10, borderTopRightRadius: 10 }} src="./images/pony.png" />
                     </div>
                     <div className="card-alignment-third">
                          <div style={{ width: 290, height: 308, left: 770, top: 1, position: 'absolute', background: '#D9D9D9', borderRadius: 10, filter: 'blur(5px)' }} />
@@ -100,24 +162,10 @@ export default function Home() {
                          <img style={{ width: 290, height: 240, right: 50, top: 0.42, position: 'absolute', borderTopLeftRadius: 10, borderTopRightRadius: 10 }} src="./images/Onigiri.png" />
                     </div><br /><br /><br />
 
-                    <div className="email">
-                         <div style={{ textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'BIZ UDPMincho', fontWeight: '700', wordWrap: 'break-word' }}>Enjoy new weekly recipes and recommendations</div>
-                         <div style={{ textAlign: 'center', color: 'black', fontSize: 60, fontFamily: 'BIZ UDPMincho', fontWeight: '700', wordWrap: 'break-word' }}>Join our mailing list</div>
-                         <div>
-                              <div style={{ width: '100%', height: '100%', background: 'white', borderRadius: 10 }} />
-                              <div style={{ textAlign: 'center', color: 'rgba(0, 0, 0, 0.70)', fontSize: 20, fontFamily: 'BIZ UDPMincho', fontWeight: '700', wordWrap: 'break-word' }}>Email Address</div>
-                              <div style={{ textAlign: 'center', color: 'black', fontSize: 20, fontFamily: 'BIZ UDPMincho', fontWeight: '700', wordWrap: 'break-word' }}>Send</div>
-                              <div style={{ width: '100%', height: '100%', background: '#EAC7A7', borderRadius: 10 }} />
-
-                         </div>
-                    </div>
-
-
+            
+                         <h1 className="thank-you">Thank you for viewing our page!</h1>
+                 
                </Card >
-
-
-
-
           </div >
 
 

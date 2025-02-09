@@ -1,0 +1,137 @@
+.cora-page {
+    background: #1E23A1;
+    min-height: 200vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    /* justify-content: flex-start; */
+}
+
+
+.title-font-cora {
+    color: #ffffff;
+    font-size: 70;
+    font-family: 'Ubuntu Mono';
+    font-weight: 500;
+    left: 100px;
+    position: absolute;
+    top: 100px;
+
+}
+
+
+.cora-image {
+    border-radius: 20px;
+    /* max-height: 900px; */
+    /* max-width: 100%; */
+    height: auto;
+    margin-left: 5px;
+    margin-top: 40px;
+}
+
+
+.title-name-cora {
+    color: #ffffff;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    position: relative;
+    right: 100px; 
+    margin-top: 20px;
+}
+
+.first-paragraph-cora {
+    align-items: left;
+    justify-content: left;
+    position: absolute;
+    right: 228px;
+    top: 280px;
+}
+
+.individual-cora p {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 400;
+    word-wrap: break-word;
+    position: relative;
+    top: 10px;
+    right:100px;
+}
+
+/* .total-time-label-cora {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.total-time-duration-cora {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+} */
+
+.flex-times-cora {
+    display: flex;
+    position: absolute;
+    top: 75px;
+    right:8px;
+    color:'white';
+}
+
+.change-paragraph-cora {
+    position: absolute;
+    width: 40%;
+    top: 455px;
+    left: 668px;
+}
+
+.directions-cora {
+    position: relative;
+    top: 660px;
+    left: 668px;
+}
+
+.change-paragraph2-cora {
+    position: relative;
+    width: 40%;
+    top: 670px;
+    left: 668px;
+}
+
+.menu-cora {
+    position: relative;
+    width: 40%;
+    bottom: 350px;
+    left: 90px;
+}
+
+.text-space-cora {
+    line-height: 35px;
+}
+
+.text-space2-cora {
+    line-height: 60px;
+}
+
+.bottom-font-cora {
+    left: 978px;
+    top: 300px;
+    position: relative;
+    /* top: 150px; */
+}
+
+.coraline-photo{
+    left: 130px;
+    bottom: 370px;
+    max-width: 30%;
+    position: relative;
+}
+
+.key-photo{
+    left: 1000px;
+    bottom: 2030px;
+    max-width: 30%;
+    position: relative;
+}

@@ -3,8 +3,6 @@
 import './App.css'
 import { HashRouter, Route, Routes, Navigate } from "react-router-dom";
 import CineEats from './CineEats';
-import Home from './CineEats/Home';
-import Recipe from './CineEats/Recipe';
 
 
 export default function App() {
