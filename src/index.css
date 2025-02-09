@@ -2,10 +2,10 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif, Brawler, Khula;
   line-height: 1.5;
   font-weight: 400;
+  /* min-height:100vh;
+  width:100vh; */
+  background-color: #fff;
 
-
- 
-  background-color: #F5E8D7;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,7 +17,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #EE4F59;
   text-decoration: inherit;
 }
 a:hover {
@@ -28,8 +28,9 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  min-width: 320px; 
+   min-height: 100vh;
+
 }
 
 h1 {
@@ -38,7 +39,7 @@ h1 {
 }
 
 
-button {
+/* button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -55,17 +56,13 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+} */
 
-/* @media (prefers-color-scheme: light) { */
+/* @media (prefers-color-scheme: light) {
   /* :root {
     color: #213547;
     background-color: #ffffff;
   } */
   /* a:hover {
     color: #747bff;
-  }
-  button {
-    background-color: #F5E8D7;
   } */
-/* } */
